@@ -67,7 +67,6 @@ HoverTooltip.propTypes = {
 	bgwidth: PropTypes.number,
 	bgheight: PropTypes.number,
 	bgFill: PropTypes.string.isRequired,
-	isUnicode: PropTypes.bool,
 	bgOpacity: PropTypes.number.isRequired,
 	tooltipContent: PropTypes.func.isRequired,
 	origin: PropTypes.oneOfType([
@@ -146,28 +145,21 @@ function backgroundShapeCanvas(props, { width, height }, ctx) {
 	ctx.stroke();
 }
 
-function tooltipCanvas({ fontFamily, fontSize, fontFill, isUnicode }, content, ctx) {
-	var fontFamily = _ref5.fontFamily,
-	    fontSize = _ref5.fontSize,
-	    fontFill = _ref5.fontFill;
-	var startY = Y + fontSize * 0.9;
-	ctx.font = fontSize + "px " + fontFamily;
+function tooltipCanvas({ fontFamily, fontSize, fontFill }, content, ctx) {
+	const startY = Y + fontSize * 0.9;
+	ctx.font = `${fontSize}px ${fontFamily}`;
 	ctx.fillStyle = fontFill;
 	ctx.textAlign = "left";
 	ctx.fillText(content.x, X, startY);
-	for (var i = 0; i < content.y.length; i++) {
-		var y = content.y[i];
-		var textY = startY + fontSize * (i + 1);
-		if(isUnicode){
-			ctx.fillStyle = '#4bad59 ';
-			ctx.fillText("\u2022", X, textY);
-		}
-		ctx.font = (fontSize - 2) + "px " + fontFamily;
+
+	for (let i = 0; i < content.y.length; i++) {
+		const y = content.y[i];
+		const textY = startY + (fontSize * (i + 1));
 		ctx.fillStyle = y.stroke || fontFill;
-		ctx.fillText("  "+y.label, X, textY);
-		ctx.font = fontSize + "px " + fontFamily;
+		ctx.fillText(y.label, X, textY);
+
 		ctx.fillStyle = fontFill;
-		ctx.fillText(y.value, X + ctx.measureText(y.label).width, textY);
+		ctx.fillText(": " + y.value, X + ctx.measureText(y.label).width, textY);
 	}
 }
 
