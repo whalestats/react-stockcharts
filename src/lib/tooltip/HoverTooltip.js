@@ -67,6 +67,7 @@ HoverTooltip.propTypes = {
 	bgwidth: PropTypes.number,
 	bgheight: PropTypes.number,
 	bgFill: PropTypes.string.isRequired,
+	isUnicode: PropTypes.bool,
 	bgOpacity: PropTypes.number.isRequired,
 	tooltipContent: PropTypes.func.isRequired,
 	origin: PropTypes.oneOfType([
