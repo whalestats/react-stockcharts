@@ -146,6 +146,7 @@ function backgroundShapeCanvas(props, { width, height }, ctx) {
 }
 
 function tooltipCanvas({ fontFamily, fontSize, fontFill }, content, ctx) {
+	//https://github.com/whalestats/react-stockcharts.git
 	const startY = Y + fontSize * 0.9;
 	ctx.font = `${fontSize}px ${fontFamily}`;
 	ctx.fillStyle = fontFill;
