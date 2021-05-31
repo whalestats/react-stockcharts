@@ -101,7 +101,7 @@ SARSeries.propTypes = {
 };
 
 SARSeries.defaultProps = {
-	className: "react-stockcharts-sar",
+	className: "whalestats-stockcharts-sar",
 	fill: {
 		falling: "#4682B4",
 		rising: "#15EC2E",

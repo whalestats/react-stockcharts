@@ -58,7 +58,7 @@ AxisLine.propTypes = {
 };
 
 AxisLine.defaultProps = {
-	className: "react-stockcharts-axis-line",
+	className: "whalestats-stockcharts-axis-line",
 	shapeRendering: "crispEdges",
 	outerTickSize: 0,
 	fill: "none",

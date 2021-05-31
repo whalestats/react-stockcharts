@@ -258,7 +258,7 @@ GroupTooltip.propTypes = {
 };
 
 GroupTooltip.defaultProps = {
-	className: "react-stockcharts-tooltip react-stockcharts-group-tooltip",
+	className: "whalestats-stockcharts-tooltip whalestats-stockcharts-group-tooltip",
 	layout: "horizontal",
 	displayFormat: format( ".2f" ),
 	displayValuesFor: displayValuesFor,

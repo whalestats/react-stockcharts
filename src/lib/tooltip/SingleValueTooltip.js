@@ -83,7 +83,7 @@ SingleValueTooltip.defaultProps = {
 	displayValuesFor: displayValuesFor,
 	xAccessor: noop,
 	yAccessor: identity,
-	className: "react-stockcharts-tooltip",
+	className: "whalestats-stockcharts-tooltip",
 };
 
 export default SingleValueTooltip;

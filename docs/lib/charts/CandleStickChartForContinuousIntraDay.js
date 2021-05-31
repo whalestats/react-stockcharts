@@ -6,23 +6,23 @@ import { scaleTime } from "d3-scale";
 import { format } from "d3-format";
 import { timeFormat } from "d3-time-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
 import {
 	BarSeries,
 	CandlestickSeries,
-} from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+} from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 import {
 	CrossHairCursor,
 	EdgeIndicator,
 	CurrentCoordinate,
 	MouseCoordinateX,
 	MouseCoordinateY,
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
-import { OHLCTooltip } from "react-stockcharts/lib/tooltip";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { last } from "react-stockcharts/lib/utils";
+import { OHLCTooltip } from "whalestats-stockcharts/lib/tooltip";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { last } from "whalestats-stockcharts/lib/utils";
 
 class CandleStickChartForContinuousIntraDay extends React.Component {
 	render() {

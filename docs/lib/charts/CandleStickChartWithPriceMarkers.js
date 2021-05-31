@@ -4,17 +4,17 @@ import PropTypes from "prop-types";
 
 import { format } from "d3-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
-import { CandlestickSeries } from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { last } from "react-stockcharts/lib/utils";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
+import { CandlestickSeries } from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { last } from "whalestats-stockcharts/lib/utils";
 
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
 
 import {
 	PriceCoordinate
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
 class CandleStickChartWithPriceMarkers extends React.Component {
 	render() {

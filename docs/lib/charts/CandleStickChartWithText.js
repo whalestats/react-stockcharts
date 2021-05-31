@@ -12,24 +12,24 @@ import {
 	FormControl,
 } from "react-bootstrap";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
-import { CandlestickSeries, BarSeries, MACDSeries } from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
+import { CandlestickSeries, BarSeries, MACDSeries } from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 import {
 	CrossHairCursor,
 	EdgeIndicator,
 	MouseCoordinateY,
 	MouseCoordinateX
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
-import { OHLCTooltip, MACDTooltip } from "react-stockcharts/lib/tooltip";
-import { macd } from "react-stockcharts/lib/indicator";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
+import { OHLCTooltip, MACDTooltip } from "whalestats-stockcharts/lib/tooltip";
+import { macd } from "whalestats-stockcharts/lib/indicator";
 
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { InteractiveText, DrawingObjectSelector } from "react-stockcharts/lib/interactive";
-import { getMorePropsForChart } from "react-stockcharts/lib/interactive/utils";
-import { head, last, toObject } from "react-stockcharts/lib/utils";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { InteractiveText, DrawingObjectSelector } from "whalestats-stockcharts/lib/interactive";
+import { getMorePropsForChart } from "whalestats-stockcharts/lib/interactive/utils";
+import { head, last, toObject } from "whalestats-stockcharts/lib/utils";
 import {
 	saveInteractiveNodes,
 	getInteractiveNodes,
@@ -44,7 +44,7 @@ class Dialog extends React.Component {
 		this.handleChange = this.handleChange.bind(this);
 		this.handleSave = this.handleSave.bind(this);
 	}
-	componentWillReceiveProps(nextProps) {
+	UNSAFE_componentWillReceiveProps(nextProps) {
 		this.setState({
 			text: nextProps.text,
 		});

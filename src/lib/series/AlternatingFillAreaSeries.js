@@ -192,7 +192,7 @@ AlternatingFillAreaSeries.defaultProps = {
 		top: "Solid",
 		bottom: "Solid",
 	},
-	className: "react-stockcharts-alternating-area",
+	className: "whalestats-stockcharts-alternating-area",
 };
 
 export default AlternatingFillAreaSeries;

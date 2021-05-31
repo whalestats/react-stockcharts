@@ -50,7 +50,7 @@ class HoverTooltip extends Component {
 					height={height}
 					fill={bgFill}
 					opacity={bgOpacity} />
-				<g className="react-stockcharts-tooltip-content" transform={`translate(${x}, ${y})`}>
+				<g className="whalestats-stockcharts-tooltip-content" transform={`translate(${x}, ${y})`}>
 					{backgroundShapeSVG(this.props, bgShape)}
 					{tooltipSVG(this.props, content)}
 				</g>
@@ -145,21 +145,25 @@ function backgroundShapeCanvas(props, { width, height }, ctx) {
 	ctx.stroke();
 }
 
-function tooltipCanvas({ fontFamily, fontSize, fontFill }, content, ctx) {
+function tooltipCanvas({ fontFamily, fontSize, fontFill, isUnicode }, content, ctx) {
 	const startY = Y + fontSize * 0.9;
-	ctx.font = `${fontSize}px ${fontFamily}`;
+	ctx.font = fontSize + "px " + fontFamily;
 	ctx.fillStyle = fontFill;
 	ctx.textAlign = "left";
 	ctx.fillText(content.x, X, startY);
-
 	for (let i = 0; i < content.y.length; i++) {
 		const y = content.y[i];
-		const textY = startY + (fontSize * (i + 1));
+		const textY = startY + fontSize * (i + 1);
+		if (isUnicode) {
+			ctx.fillStyle = "#4bad59 ";
+			ctx.fillText("\u2022", X, textY);
+		}
+		ctx.font = (fontSize - 2) + "px " + fontFamily;
 		ctx.fillStyle = y.stroke || fontFill;
-		ctx.fillText(y.label, X, textY);
-
+		ctx.fillText("  " + y.label, X, textY);
+		ctx.font = fontSize + "px " + fontFamily;
 		ctx.fillStyle = fontFill;
-		ctx.fillText(": " + y.value, X + ctx.measureText(y.label).width, textY);
+		ctx.fillText(y.value, X + ctx.measureText(y.label).width, textY);
 	}
 }
 

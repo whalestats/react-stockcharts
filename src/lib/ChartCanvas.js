@@ -50,43 +50,43 @@ function shouldResetChart(thisProps, nextProps) {
 
 function getCursorStyle() {
 	const tooltipStyle = `
-	.react-stockcharts-grabbing-cursor {
+	.whalestats-stockcharts-grabbing-cursor {
 		pointer-events: all;
 		cursor: -moz-grabbing;
 		cursor: -webkit-grabbing;
 		cursor: grabbing;
 	}
-	.react-stockcharts-crosshair-cursor {
+	.whalestats-stockcharts-crosshair-cursor {
 		pointer-events: all;
 		cursor: crosshair;
 	}
-	.react-stockcharts-tooltip-hover {
+	.whalestats-stockcharts-tooltip-hover {
 		pointer-events: all;
 		cursor: pointer;
 	}
-	.react-stockcharts-avoid-interaction {
+	.whalestats-stockcharts-avoid-interaction {
 		pointer-events: none;
 	}
-	.react-stockcharts-enable-interaction {
+	.whalestats-stockcharts-enable-interaction {
 		pointer-events: all;
 	}
-	.react-stockcharts-tooltip {
+	.whalestats-stockcharts-tooltip {
 		pointer-events: all;
 		cursor: pointer;
 	}
-	.react-stockcharts-default-cursor {
+	.whalestats-stockcharts-default-cursor {
 		cursor: default;
 	}
-	.react-stockcharts-move-cursor {
+	.whalestats-stockcharts-move-cursor {
 		cursor: move;
 	}
-	.react-stockcharts-pointer-cursor {
+	.whalestats-stockcharts-pointer-cursor {
 		cursor: pointer;
 	}
-	.react-stockcharts-ns-resize-cursor {
+	.whalestats-stockcharts-ns-resize-cursor {
 		cursor: ns-resize;
 	}
-	.react-stockcharts-ew-resize-cursor {
+	.whalestats-stockcharts-ew-resize-cursor {
 		cursor: ew-resize;
 	}`;
 	return (<style type="text/css">{tooltipStyle}</style>);
@@ -1113,7 +1113,7 @@ class ChartCanvas extends Component {
 							onPanEnd={this.handlePanEnd}
 						/>
 
-						<g className="react-stockcharts-avoid-interaction">
+						<g className="whalestats-stockcharts-avoid-interaction">
 							{this.props.children}
 						</g>
 					</g>

@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { TypeChooser } from "react-stockcharts/lib/helper";
+import { TypeChooser } from "whalestats-stockcharts/lib/helper";
 
 import {
 	curveLinear,

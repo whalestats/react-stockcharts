@@ -184,12 +184,12 @@ class EachFibRetracement extends Component {
 					const firstOrLast = (j === 0) || (j === lines.length - 1);
 
 					const interactiveCursorClass = firstOrLast
-						? "react-stockcharts-ns-resize-cursor"
-						: "react-stockcharts-move-cursor";
+						? "whalestats-stockcharts-ns-resize-cursor"
+						: "whalestats-stockcharts-move-cursor";
 
 					const interactiveEdgeCursorClass = firstOrLast
-						? "react-stockcharts-ns-resize-cursor"
-						: "react-stockcharts-ew-resize-cursor";
+						? "whalestats-stockcharts-ns-resize-cursor"
+						: "whalestats-stockcharts-ew-resize-cursor";
 
 					const dragHandler = j === 0
 						? this.handleLineNSResizeTop

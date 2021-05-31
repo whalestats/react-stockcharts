@@ -1,8 +1,8 @@
-[source](https://github.com/rrag/react-stockcharts/blob/master/docs/lib/charts/ChartWithAxis.js)
+[source](https://github.com/rrag/whalestats-stockcharts/blob/master/docs/lib/charts/ChartWithAxis.js)
 
 
 ```js
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 
 ```
 

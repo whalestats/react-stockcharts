@@ -1,7 +1,7 @@
 ## React Stockcharts
 
-[![Join the chat at https://gitter.im/rrag/react-stockcharts](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rrag/react-stockcharts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![npm version](https://badge.fury.io/js/react-stockcharts.svg)](https://badge.fury.io/js/react-stockcharts)
+[![Join the chat at https://gitter.im/rrag/whalestats-stockcharts](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rrag/whalestats-stockcharts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![npm version](https://badge.fury.io/js/whalestats-stockcharts.svg)](https://badge.fury.io/js/whalestats-stockcharts)
 
 
 Create highly customizable stock charts
@@ -13,7 +13,7 @@ If you like this project checkout <a href="https://gocharting.com" target="_blan
  - over 60 technical indicators and overlays
  - drawing objects
 
-Multiple [quick start examples](https://github.com/rrag/react-stockcharts-examples2)
+Multiple [quick start examples](https://github.com/rrag/whalestats-stockcharts-examples2)
 
 - svg and canvas for improved performance. 
 - pan and zoom, on touch devices too
@@ -59,14 +59,14 @@ and it is simple to create your own indicator too
 
 ### Installation
 ```sh
-npm install  --save react-stockcharts
+npm install  --save whalestats-stockcharts
 ```
 
 ### Documentation
 
-[Documentation](http://rrag.github.io/react-stockcharts)
+[Documentation](http://rrag.github.io/whalestats-stockcharts)
 
-[Ready to use Examples](https://github.com/rrag/react-stockcharts-examples2)
+[Ready to use Examples](https://github.com/rrag/whalestats-stockcharts-examples2)
 
 ### Contributing
 

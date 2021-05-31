@@ -170,7 +170,7 @@ class StandardDeviationChannel extends Component {
 
 					onDrag={this.handleDragLine}
 					onDragComplete={this.handleDragLineComplete}
-					edgeInteractiveCursor="react-stockcharts-move-cursor"
+					edgeInteractiveCursor="whalestats-stockcharts-move-cursor"
 				/>;
 			})}
 			{tempLine}

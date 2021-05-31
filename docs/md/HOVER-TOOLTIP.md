@@ -1,2 +1,2 @@
-[source](https://github.com/rrag/react-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithHoverTooltip.js), [codesandbox](https://codesandbox.io/s/github/rrag/react-stockcharts-examples2/tree/master/examples/CandleStickChartWithHoverTooltip)
+[source](https://github.com/rrag/whalestats-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithHoverTooltip.js), [codesandbox](https://codesandbox.io/s/github/rrag/whalestats-stockcharts-examples2/tree/master/examples/CandleStickChartWithHoverTooltip)
 

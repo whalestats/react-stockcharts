@@ -1,4 +1,4 @@
-import { isNotDefined, isDefined } from "react-stockcharts/lib/utils";
+import { isNotDefined, isDefined } from "whalestats-stockcharts/lib/utils";
 
 export function saveInteractiveNode(chartId) {
 	return node => {

@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import { TypeChooser } from "react-stockcharts/lib/helper";
+import { TypeChooser } from "whalestats-stockcharts/lib/helper";
 
 import ContentSection from "lib/content-section";
 import Row from "lib/row";
@@ -12,7 +12,7 @@ import {
 	mouseBasedZoomAnchor,
 	lastVisibleItemBasedZoomAnchor,
 	rightDomainBasedZoomAnchor,
-} from "react-stockcharts/lib/utils/zoomBehavior";
+} from "whalestats-stockcharts/lib/utils/zoomBehavior";
 
 import {
 	Form,

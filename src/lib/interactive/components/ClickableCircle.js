@@ -124,7 +124,7 @@ ClickableCircle.propTypes = {
 
 
 ClickableCircle.defaultProps = {
-	className: "react-stockcharts-interactive-line-edge",
+	className: "whalestats-stockcharts-interactive-line-edge",
 	onDragStart: noop,
 	onDrag: noop,
 	onDragComplete: noop,

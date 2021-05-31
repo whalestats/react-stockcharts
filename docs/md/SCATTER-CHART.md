@@ -1,6 +1,6 @@
 
 ```js
-import { ChartCanvas, Chart, series } from "react-stockcharts";
+import { ChartCanvas, Chart, series } from "whalestats-stockcharts";
 
 const { LineSeries, ScatterSeries, CircleMarker, SquareMarker, TriangleMarker } = series;
 ```
@@ -33,7 +33,7 @@ const { LineSeries, ScatterSeries, CircleMarker, SquareMarker, TriangleMarker } 
 ```
 
 
-[source](https://github.com/rrag/react-stockcharts/blob/master/docs/lib/charts/LineAndScatterChart.js), [codesandbox](https://codesandbox.io/s/github/rrag/react-stockcharts-examples2/tree/master/examples/LineAndScatterChart)
+[source](https://github.com/rrag/whalestats-stockcharts/blob/master/docs/lib/charts/LineAndScatterChart.js), [codesandbox](https://codesandbox.io/s/github/rrag/whalestats-stockcharts-examples2/tree/master/examples/LineAndScatterChart)
 
 
 

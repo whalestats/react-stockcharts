@@ -12,4 +12,4 @@ key   | outcome
 +     | increase the speed
 -     | reduce the speed
 
-Look for the [source](https://github.com/rrag/react-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithUpdatingData.js), [codesandbox](https://codesandbox.io/s/github/rrag/react-stockcharts-examples2/tree/master/examples/CandleStickChartWithUpdatingData)
+Look for the [source](https://github.com/rrag/whalestats-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithUpdatingData.js), [codesandbox](https://codesandbox.io/s/github/rrag/whalestats-stockcharts-examples2/tree/master/examples/CandleStickChartWithUpdatingData)

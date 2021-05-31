@@ -1,13 +1,14 @@
 {
-  "name": "react-stockcharts",
-  "version": "0.7.8",
+  "name": "whalestats-stockcharts",
+  "version": "0.0.5",
   "description": "Highly customizable stock charts with ReactJS and d3",
   "main": "src/index.js",
   "module": "src/index.js",
   "author": {
-    "name": "Ragu Ramaswamy"
+    "name": "Ragu Ramaswamy",
+    "editor": "Whalestats"
   },
-  "homepage": "http://rrag.github.io/react-stockcharts/",
+  "homepage": "http://rrag.github.io/whalestats-stockcharts/",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf -rf ./build",
@@ -29,8 +30,8 @@
     "postversion": "git push origin `git rev-parse --abbrev-ref HEAD` && git push origin `git describe`",
     "npm:publish:next": "npm run release && cd build && npm publish --tag next",
     "npm:publish:latest": "npm run release && cd build && npm publish",
-    "info": "npm info react-stockcharts",
-    "sourcemap:visualize": "source-map-explorer build/dist/react-stockcharts.min.js build/dist/react-stockcharts.min.js.map",
+    "info": "npm info whalestats-stockcharts",
+    "sourcemap:visualize": "source-map-explorer build/dist/whalestats-stockcharts.min.js build/dist/whalestats-stockcharts.min.js.map",
     "server": "cd build && python3 -m http.server 8090"
   },
   "dependencies": {
@@ -133,10 +134,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rrag/react-stockcharts.git"
+    "url": "https://github.com/rrag/whalestats-stockcharts.git"
   },
   "bugs": {
-    "url": "https://github.com/rrag/react-stockcharts/issues"
+    "url": "https://github.com/rrag/whalestats-stockcharts/issues"
   },
   "maintainers": [
     {

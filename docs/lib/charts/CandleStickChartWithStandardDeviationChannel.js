@@ -4,21 +4,21 @@ import PropTypes from "prop-types";
 import { format } from "d3-format";
 import { timeFormat } from "d3-time-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
-import { CandlestickSeries } from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
+import { CandlestickSeries } from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 import {
 	CrossHairCursor,
 	EdgeIndicator,
 	MouseCoordinateY,
 	MouseCoordinateX
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
-import { OHLCTooltip } from "react-stockcharts/lib/tooltip";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { StandardDeviationChannel, DrawingObjectSelector } from "react-stockcharts/lib/interactive";
-import { last, toObject } from "react-stockcharts/lib/utils";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
+import { OHLCTooltip } from "whalestats-stockcharts/lib/tooltip";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { StandardDeviationChannel, DrawingObjectSelector } from "whalestats-stockcharts/lib/interactive";
+import { last, toObject } from "whalestats-stockcharts/lib/utils";
 import {
 	saveInteractiveNodes,
 	getInteractiveNodes,

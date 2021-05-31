@@ -5,22 +5,22 @@ import PropTypes from "prop-types";
 import { format } from "d3-format";
 import { timeFormat } from "d3-time-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
 import {
 	BarSeries,
 	AreaSeries,
-} from "react-stockcharts/lib/series";
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+} from "whalestats-stockcharts/lib/series";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 import {
 	CrossHairCursor,
 	MouseCoordinateX,
 	MouseCoordinateY,
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
-import { SingleValueTooltip } from "react-stockcharts/lib/tooltip";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { last } from "react-stockcharts/lib/utils";
+import { SingleValueTooltip } from "whalestats-stockcharts/lib/tooltip";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { last } from "whalestats-stockcharts/lib/utils";
 
 class AreaChartWithEdge extends React.Component {
 	render() {

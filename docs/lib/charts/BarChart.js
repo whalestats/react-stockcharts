@@ -3,10 +3,10 @@ import { scalePoint } from  "d3-scale";
 import React from "react";
 import PropTypes from "prop-types";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
-import { BarSeries } from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
-import { fitWidth } from "react-stockcharts/lib/helper";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
+import { BarSeries } from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
 
 class BarChart extends React.Component {
 	render() {

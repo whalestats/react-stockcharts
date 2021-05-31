@@ -86,7 +86,7 @@ MACDSeries.propTypes = {
 };
 
 MACDSeries.defaultProps = {
-	className: "react-stockcharts-macd-series",
+	className: "whalestats-stockcharts-macd-series",
 	zeroLineStroke: "#000000",
 	zeroLineOpacity: 0.3,
 	opacity: 0.6,

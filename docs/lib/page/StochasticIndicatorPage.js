@@ -2,7 +2,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import { TypeChooser, SaveChartAsImage } from "react-stockcharts/lib/helper";
+import { TypeChooser, SaveChartAsImage } from "whalestats-stockcharts/lib/helper";
 
 import ContentSection from "lib/content-section";
 import Row from "lib/row";

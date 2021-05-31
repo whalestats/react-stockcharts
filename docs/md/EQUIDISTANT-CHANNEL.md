@@ -8,4 +8,4 @@
 	- move the edge circles and the top/bottom lines
 	- Click outside to unselect
 
-[source](https://github.com/rrag/react-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithEquidistantChannel.js), [codesandbox](https://codesandbox.io/s/github/rrag/react-stockcharts-examples2/tree/master/examples/CandleStickChartWithEquidistantChannel)
+[source](https://github.com/rrag/whalestats-stockcharts/blob/master/docs/lib/charts/CandleStickChartWithEquidistantChannel.js), [codesandbox](https://codesandbox.io/s/github/rrag/whalestats-stockcharts-examples2/tree/master/examples/CandleStickChartWithEquidistantChannel)

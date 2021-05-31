@@ -5,25 +5,25 @@ import PropTypes from "prop-types";
 import { format } from "d3-format";
 import { timeFormat } from "d3-time-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
 import {
 	BarSeries,
 	RenkoSeries,
-} from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
+} from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
 import {
 	CrossHairCursor,
 	MouseCoordinateX,
 	MouseCoordinateY,
-} from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/coordinates";
 
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
 import {
 	OHLCTooltip,
-} from "react-stockcharts/lib/tooltip";
-import { renko } from "react-stockcharts/lib/indicator";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { last } from "react-stockcharts/lib/utils";
+} from "whalestats-stockcharts/lib/tooltip";
+import { renko } from "whalestats-stockcharts/lib/indicator";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { last } from "whalestats-stockcharts/lib/utils";
 
 class Renko extends React.Component {
 	render() {

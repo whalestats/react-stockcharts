@@ -12,8 +12,8 @@ function buildConfig(mode) {
 	const { ifWatch, ifDocs } = getIfUtils(mode, ["docs", "watch"]);
 
 	const docsEntry = {
-		"react-stockcharts-home": "./docs/index.js",
-		"react-stockcharts-documentation": "./docs/documentation.js",
+		"whalestats-stockcharts-home": "./docs/index.js",
+		"whalestats-stockcharts-documentation": "./docs/documentation.js",
 	};
 
 	const devServer = {
@@ -104,7 +104,7 @@ function buildConfig(mode) {
 		resolve: {
 			extensions: [".js", ".scss", ".md"],
 			alias: {
-				"react-stockcharts": path.join(rootPath, "src"),
+				"whalestats-stockcharts": path.join(rootPath, "src"),
 			},
 			modules: ["docs", "node_modules"]
 		}

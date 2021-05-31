@@ -91,7 +91,7 @@ export const defaultProps = {
 
 LabelAnnotation.defaultProps = {
 	...defaultProps,
-	className: "react-stockcharts-labelannotation",
+	className: "whalestats-stockcharts-labelannotation",
 };
 
 export default LabelAnnotation;

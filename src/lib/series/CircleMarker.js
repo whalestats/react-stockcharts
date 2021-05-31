@@ -37,7 +37,7 @@ Circle.defaultProps = {
 	strokeWidth: 1,
 	opacity: 0.5,
 	fill: "#4682B4",
-	className: "react-stockcharts-marker-circle",
+	className: "whalestats-stockcharts-marker-circle",
 };
 
 Circle.drawOnCanvas = (props, point, ctx) => {

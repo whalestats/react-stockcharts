@@ -1,6 +1,6 @@
 
 import React from "react";
-import { TypeChooser } from "react-stockcharts/lib/helper";
+import { TypeChooser } from "whalestats-stockcharts/lib/helper";
 
 import ContentSection from "lib/content-section";
 import Row from "lib/row";

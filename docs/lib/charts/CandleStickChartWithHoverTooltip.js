@@ -4,20 +4,20 @@ import PropTypes from "prop-types";
 import { format } from "d3-format";
 import { timeFormat } from "d3-time-format";
 
-import { ChartCanvas, Chart } from "react-stockcharts";
+import { ChartCanvas, Chart } from "whalestats-stockcharts";
 import {
 	BarSeries,
 	CandlestickSeries,
 	LineSeries
-} from "react-stockcharts/lib/series";
-import { XAxis, YAxis } from "react-stockcharts/lib/axes";
-import { EdgeIndicator } from "react-stockcharts/lib/coordinates";
+} from "whalestats-stockcharts/lib/series";
+import { XAxis, YAxis } from "whalestats-stockcharts/lib/axes";
+import { EdgeIndicator } from "whalestats-stockcharts/lib/coordinates";
 
-import { discontinuousTimeScaleProvider } from "react-stockcharts/lib/scale";
-import { HoverTooltip } from "react-stockcharts/lib/tooltip";
-import { ema } from "react-stockcharts/lib/indicator";
-import { fitWidth } from "react-stockcharts/lib/helper";
-import { last } from "react-stockcharts/lib/utils";
+import { discontinuousTimeScaleProvider } from "whalestats-stockcharts/lib/scale";
+import { HoverTooltip } from "whalestats-stockcharts/lib/tooltip";
+import { ema } from "whalestats-stockcharts/lib/indicator";
+import { fitWidth } from "whalestats-stockcharts/lib/helper";
+import { last } from "whalestats-stockcharts/lib/utils";
 
 const dateFormat = timeFormat("%Y-%m-%d");
 const numberFormat = format(".2f");

@@ -8,7 +8,7 @@ import Section from "lib/section";
 
 import AreaChart from "lib/charts/AreaChart";
 import AreaChartWithYPercent from "lib/charts/AreaChartWithYPercent";
-import { TypeChooser } from "react-stockcharts/lib/helper";
+import { TypeChooser } from "whalestats-stockcharts/lib/helper";
 
 class OverviewPage extends React.Component {
 	render() {
